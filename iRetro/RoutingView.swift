@@ -13,7 +13,7 @@ struct RoutingView: View {
 
     var body: some View {
         if isOnboardingCompleted {
-            ContentView()
+            VinylView()
         } else {
             OnboardingView()
         }

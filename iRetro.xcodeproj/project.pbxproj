@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E128CA4B2A2836DD00E4674D /* VinylView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E128CA4A2A2836DD00E4674D /* VinylView.swift */; };
+		E128CA4D2A283F6100E4674D /* VinylRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E128CA4C2A283F6100E4674D /* VinylRecordView.swift */; };
 		E15F610A25E2E44E00501A13 /* BatteryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F610925E2E44E00501A13 /* BatteryManager.swift */; };
 		E15F612A25E30CD200501A13 /* RoutingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15F612925E30CD200501A13 /* RoutingView.swift */; };
 		EA1E374125E028BB00C88BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1E374025E028BB00C88BAF /* AppDelegate.swift */; };
@@ -68,6 +70,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E128CA4A2A2836DD00E4674D /* VinylView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylView.swift; sourceTree = "<group>"; };
+		E128CA4C2A283F6100E4674D /* VinylRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VinylRecordView.swift; sourceTree = "<group>"; };
 		E15F610925E2E44E00501A13 /* BatteryManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryManager.swift; sourceTree = "<group>"; };
 		E15F612925E30CD200501A13 /* RoutingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingView.swift; sourceTree = "<group>"; };
 		EA1E373D25E028BB00C88BAF /* SwiftUI-Jam-2020.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Jam-2020.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,6 +145,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E128CA492A2836B900E4674D /* Vinyl */ = {
+			isa = PBXGroup;
+			children = (
+				E128CA4A2A2836DD00E4674D /* VinylView.swift */,
+				E128CA4C2A283F6100E4674D /* VinylRecordView.swift */,
+			);
+			path = Vinyl;
+			sourceTree = "<group>";
+		};
 		EA1E373425E028BB00C88BAF = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +278,7 @@
 		EA1E378325E02CBB00C88BAF /* Devices */ = {
 			isa = PBXGroup;
 			children = (
+				E128CA492A2836B900E4674D /* Vinyl */,
 				EA1E378C25E0303200C88BAF /* Shared */,
 				EADBD16225F9BA1D006D48D3 /* Classic.swift */,
 				EA4A782A26119719004690A8 /* Nano.swift */,
@@ -418,9 +432,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E128CA4B2A2836DD00E4674D /* VinylView.swift in Sources */,
 				EA1E377325E02B8B00C88BAF /* SlideAnimatedTransitioning.swift in Sources */,
 				EA5E770525E2B899004587E2 /* GenresListViewModel.swift in Sources */,
 				EA1E374125E028BB00C88BAF /* AppDelegate.swift in Sources */,
+				E128CA4D2A283F6100E4674D /* VinylRecordView.swift in Sources */,
 				EA1E379525E0308900C88BAF /* PlayShape.swift in Sources */,
 				EA1E379225E0306400C88BAF /* StatusBar.swift in Sources */,
 				EA5E770825E2B8D9004587E2 /* GenresListView.swift in Sources */,
@@ -616,6 +632,7 @@
 				DEVELOPMENT_TEAM = U5KYHQSZAZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "iRetro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -639,6 +656,7 @@
 				DEVELOPMENT_TEAM = U5KYHQSZAZ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "iRetro/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
